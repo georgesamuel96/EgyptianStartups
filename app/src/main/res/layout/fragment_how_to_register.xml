@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".how_to_register"
+    android:background="@drawable/gradient">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="238dp"
+                android:layout_height="157dp"
+                android:layout_gravity="center"
+                android:src="@drawable/im12"
+                android:layout_marginTop="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/colorWhite"
+                android:layout_margin="8dp"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="245dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="How to Register?"
+                    android:textColor="#ae0000"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Step 1: incorporate your businiss."
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textColor="@color/colorBlack"
+                        android:background="@drawable/txtshape2"
+                        android:padding="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/colorBlack"
+                    android:text="You must first incorporate your business as a Private Limited Company or a Partnership firm or a Limited Liability Partnership You have to follow all the normal procedures for registration of any business like obtaining the certificate of Incorporation/Partnership registration, PAN, and other required compliances."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 2: Register with Startup Egypt."
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"
+                    android:background="@drawable/txtshape2"
+                    android:padding="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/colorBlack"
+                    android:text="The entire process is simple and online. All you need to do is log on to the Startup India website and fill up the form with details of your business and upload certain documents. Under the Startup India Action Plan, startups that meet the definition as prescribed under the notification G.S.R. 364 (E) are eligible to apply for recognition under the program. Startups can also apply for exemption on profits under Section 80- AC of Incnme Tax Act and exemntion on investments above fair market value under section 56 of income Tax Act."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 3: Documents to be uploaded
+ (in pdf format only)."
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"
+                    android:background="@drawable/txtshape2"
+                    android:padding="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/colorBlack"
+                    android:text="1. A letter of recommendation/support A letter of recommendation must be submitted along with the registration form.
+             2. Incorporation/Registration Certificate You need to upload the certificate of incorporation of your company/LLP. (Registration Certificate in case of partnership)
+             3. Description of your business in brief A brief description of the innovative nature of your products/services."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 4: Ansewer whether you would like to avail tax benefits."
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"
+                    android:background="@drawable/txtshape2"
+                    android:padding="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/colorBlack"
+                    android:text="Startups are exempted from income tax for 3 years. But to avail these benefits, they must be certified by the Inter-Ministerial Board (IMB). Start-ups recognized by DIPP Govt. of India can now directly avail IPR related benefits without requiring any additional certification from IMB."/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Step 5: Finally, you must self-certify that you stisfy the following conditions."
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textColor="@color/colorBlack"
+                        android:background="@drawable/txtshape2"
+                        android:padding="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/colorBlack"
+                    android:text="a) You must register your new company as a Private Limited Company, Partnership firm or a Limited Liability Partnership
+                b) Your business must be incorporated/ registered in India, not before 5 years.
+                c) Turnover must be less than 25 crores per year.
+                d) Innovation is a must- the business must be working towards innovating something new or significantly improving the existing used technology.
+                e) Your business must not be as a result of splitting up or reconstruction of an existing business."/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Step 6: Get recognition number."
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"
+                    android:background="@drawable/txtshape2"
+                    android:padding="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/colorBlack"
+                    android:text="On applying you will immediately get a recognition number for your startup. The certificate of recognition will be issued after the examination of all your documents. However, be careful while uploading the document uploaded or a forged document has been uploaded then you shall be liable to fine of 50 % of your paid - up capital of the startup with a minimum fine of Rs. 25,000"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="302dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/im15"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

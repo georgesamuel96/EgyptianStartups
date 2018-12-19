@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".what_is_startup"
+    android:background="@drawable/gradient">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="289dp"
+                android:layout_height="165dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:src="@drawable/im10"
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/colorWhite"
+                android:padding="8dp"
+                android:text="A startup company (startup or start-up) is an entrepreneurial venture which is typically a newly emerged business tht aims to meet a marketplace need by developing a viable business model around a product, service, process or a platform. A startup is usually a company designed to effectively develop and validate a scalable business model."
+                android:textColor="@color/colorBlack"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical"
+                android:background="@color/colorWhite"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="279dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="Founding a StartUp"
+                    android:textColor="@color/colorText1"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+                <View
+                    android:layout_width="190dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#9E9E9E"/>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A startup company (strtup or start-up) is an entrepreneurial venture which is typically a newly emerged business tht aims to meet a marketplace need by developing a viable business model around a product, service, process or a platform. A startup is usually a company designed to effectively develop and validate a scalable business model."
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical"
+                android:background="@color/colorWhite"
+                android:visibility="visible">
+
+                <TextView
+                    android:layout_width="279dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="Start UP Egypt"
+                    android:textColor="@color/colorText1"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#9E9E9E"/>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A startup company (strtup or start-up) is an entrepreneurial venture which is typically a newly emerged business tht aims to meet a marketplace need by developing a viable business model around a product, service, process or a platform. A startup is usually a company designed to effectively develop and validate a scalable business model."
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="8dp"
+                    android:padding="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical"
+                android:background="@color/colorWhite">
+
+                <TextView
+                    android:layout_width="279dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="How to start?"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorText1"
+                    android:layout_gravity="center"/>
+
+                <View
+                    android:layout_width="135dp"
+                    android:layout_height="2dp"
+                    android:layout_gravity="center"
+                    android:background="#9E9E9E"/>
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A startup company (strtup or start-up) is an entrepreneurial venture which is typically a newly emerged business tht aims to meet a marketplace need by developing a viable business model around a product, service, process or a platform. A startup is usually a company designed to effectively develop and validate a scalable business model."
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/colorBlack"
+                        android:layout_marginTop="8dp"
+                        android:padding="8dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
